@@ -3,3 +3,13 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache
+vendor/
+commands.md
+_data/data.yml.old
+.bundle/
+.Gemfile
+.Gemfile.lock
+.gitignore
+Gemfile
+Gemfile.lock
+.gitignore

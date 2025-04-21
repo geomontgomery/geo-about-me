@@ -5,27 +5,27 @@
 sidebar:
   position: right # position of the sidebar : left or right
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  education: False # Set to False to put Education in main section
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: George Montgomery
+  tagline: CAD/HDS & Automation Specialist | Optimizing Engineering Design & Data Workflows # From headline.md
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: george.montgomery@gmail.com
+  phone: 832 368 1274
+  timezone: America/Chicago # Updated based on environment_details
+  citizenship: USA
+  # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: geomontgomery
+  xing: # Removed placeholder
+  github: geomontgomery
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: '@geomontgomery.bsky.social' # Specify your full Bluesky handle
+  twitter: '@geomontgomery'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -39,248 +39,209 @@ sidebar:
     info:
     - idiom: English
       level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    # Removed French/Spanish as they weren't in the resume
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Disc Golf
       link:
-
-
-    - item: Snowboarding
+    - item: Running
       link:
-
-
-    - item: Cooking
+    - item: PC Gaming
       link:
-
+    - item: Technology Exploration (AI/LLMs, Automation) # Added based on resume content
+      link:
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Driven Project Engineer and Consultant specializing in optimizing complex engineering workflows through expert application of CAD (AutoCAD Plant 3D, CADWorx Suite) and HDS/Laser Scanning technologies (Leica Cyclone Suite). Proven ability to design, develop, and deploy sophisticated automation solutions using Python, SQL, C#/.NET, and various APIs, significantly enhancing efficiency in areas like specification generation, isometric production, and data validation.
+    Passionate about bridging the physical and digital worlds, integrating scan data for precise as-built modeling, clash detection, and advanced analysis (AFT Suite, volume/decay calculations). Experienced in managing the full project lifecycle, from initial consultation and environment setup to technical leadership, production support, and client training. Adept at identifying process bottlenecks and architecting innovative solutions that deliver tangible business value. Continuously exploring emerging technologies like AI/LLMs and web visualization to further streamline engineering processes. PE licensed (Mechanical).
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Bachelor of Science in Engineering Technology
+    university: Texas A&M University, College Station, TX
+    time: Graduated May 2011
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Specialization in Mechanical and Manufacturing Engineering Technology.
+      Core competencies included: Concept to creation, CAD, prototyping, manufacturability, robotics, automation, integration, industry equipment, metrology, quality control, process improvement, machining, welding, fabrication, and testing.
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Project Engineer / CAD & HDS Consultant
+    company: ECE Design – Cedar Park & Houston, TX
+    time: Oct 2014 – April 2025
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - **CAD System Mastery & Consulting:** Delivered expert-level strategy, administration, and implementation for AutoCAD Plant 3D and the CADWorx Suite. Managed complex system migrations. Engineered comprehensive piping specifications (PIP, B31.x, MSS-SP standards) and catalogs with custom content. Led training for administrators and end-users.
+      - **Advanced Workflow Automation & Development:** Architected and deployed sophisticated automated systems enhancing efficiency in piping specification generation (XLSX-to-PRJ/PCAT), "no-touch" isometrics, BOMs, and data validation using Python, SQL, C#/.NET, and AutoCAD APIs. Developed bespoke utilities for data extraction, manipulation (XML, SQLite, SQL Server), and system integration.
+      - **Leica HDS Subject Matter Expert (SME):** Commanded end-to-end laser scanning workflows (Leica RTC360/BLK360 hardware, Cyclone software suite). Integrated point clouds for as-built modeling and clash detection. Executed specialized analyses (volumes, decay, QA) and pioneered web-based visualizations (Potree). Provided HDS technology consultation, deployment guidance, and training.
+      - **Engineering Analysis & Simulation:** Applied AFT software (Fathom, Arrow, Impulse) for fluid flow analysis (static/transient, waterhammer). Integrated design data with analysis models (CAESAR II).
+      - **Project Execution & Technical Leadership:** Spearheaded production on large projects (tank farms, gas compression, biopharma). Established design environments and provided direct CAD/HDS support. Drove innovation (e.g., Socketworx Model Viewer). Managed client technical communication.
+      - **Emerging Technology Integration:** Prototyped and applied AI/LLMs for process automation, RAG-based documentation analysis, and code generation. Evaluated modern web frameworks and databases (MongoDB).
+  - role: Piping Systems Lead Designer
+    company: Chemex Modular – New Waverly, TX
+    time: Jan 2013 – Oct 2014
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - Engineered ready-to-build modular systems for oil and gas processing.
+      - Authored and implemented rigorous engineering standards (ASME, API, ASTM).
+      - Served as Startup Engineer for commissioning a 12,000 BPD refinery in Indonesia.
+      - Orchestrated multidisciplinary teams for new product developments.
+  - role: Manufacturing Engineer II
+    company: UTC Aerospace Systems – San Marcos, TX
+    time: May 2012 – Dec 2012
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - Led manufacturing initiatives for A350 Exhaust engine assembly.
+      - Managed critical processes for thermal sizing of Titanium honeycomb structures.
+      - Directed new product configuration, gate assessments, and design allowables.
+  - role: Manufacturing Engineer
+    company: Emerson Process Management - Brenham, TX
+    time: Apr 2011 – May 2012
+    details: |
+      - Designed and optimized CNC manufacturing processes (Fanuc & Mapps/Esprit) for exotic materials.
+      - Applied DFM techniques, reducing part complexity and cycle times.
+  - role: Undergraduate Research Assistant
+    company: M.E. Department - Texas A&M
+    time: Aug 2010 – May 2011
+    details: |
+      - Developed actuation platform for a bipedal robot using Solidworks.
+      - CNC prototyped and assembled mechanical components.
 
 certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+  title: Certifications & Accomplishments
+  list: # Using a simpler list format based on resume
+  - name: Passed Professional Engineering (PE) Exam - Mechanical Specialization
+    details: October 2017. NCEES Verification available.
+  - name: Passed Fundamentals of Engineering (FE) Exam - Mechanical Specialization
+    details: March 2010.
+  - name: SPED Professional Piping Designer Level I
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  intro: > # Using intro from original data.yml, adding note about detailed examples
+    You can list your side projects in this section. Detailed examples of client projects and internal development efforts involving automation, CAD customization, HDS implementation, and data management are available separately.
+  assignments: # Keeping structure, but removing placeholders as specific highlights are complex
+    # - title: Velocity
+    #   link: "#hook"
+    #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 oss:
   title: OSS Contributions
-  intro: >
+  intro: > # Keeping original intro
     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  contributions: # Keeping structure, removing placeholders
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
 
 publications:
   title: Publications
-  intro: |
+  intro: | # Keeping original intro
     You can list your publications in this section. Lorem ipsum dolor sit
     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  papers: # Keeping structure, removing placeholders
+    # - title: The Art of Computer Programming
+    #   link: "#"
+    #   authors: Donald E. Knuth
+    #   conference: Addison-Wesley, 1968
 
 recommendations:
   title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  list: # Keeping structure, removing placeholders
+    # - person: Yareli Perez
+    #   email: perezyareli@example.com
+    #   phone: 012 345 6789
+    #   role: General Director at example.com
+    #   recommendation: |
+    #     Alan Doe is a super employee!
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills & Proficiency
+  toolset: # Populated from skills.md, grouped, no levels
+  - name: CAD Software & Ecosystems
+    details: |
+      - AutoCAD Plant 3D
+      - CADWorx Suite (Plant, P&ID, Structure)
+      - Leica Cyclone Suite (Register 360, Jetstream, Cloudworx, TruView)
+      - Autodesk Recap
+      - CAESAR II Integration
+      - Solidworks (Shape Conversion)
+      - AutoCAD APIs (.NET, pyautocad)
+  - name: HDS / Laser Scanning
+    details: |
+      - Leica Hardware (RTC360, BLK360)
+      - Point Cloud Processing (Registration, Alignment, e57, RCP/RCS)
+      - Scan-to-CAD/Model Workflows
+      - Web Visualization (Potree, Three.js)
+      - Specialized Analysis (Volumes, Decay, QA)
+      - Georeferencing
+  - name: Data Analysis & Flow Simulation
+    details: |
+      - AFT Suite (Fathom, Arrow, Impulse)
+  - name: Specification & Content Management
+    details: |
+      - CADWorx PRJ Authoring/Automation
+      - Plant 3D PSPX/PSPC/PCAT Authoring/Automation
+      - Component Code Management
+      - Pipe Support Libraries (MSS-SP)
+      - Isometric Templating (I-Configure, Plant 3D)
+  - name: Automation & Scripting
+    details: |
+      - Python (pandas, lxml, rapidfuzz, xlsxwriter, pyodbc, sqlalchemy, pyautocad, tkinter, Flask, FastAPI, Django, Scrapy, BeautifulSoup, PySimpleGUI, Polars)
+      - SQL / TSQL (SQL Server)
+      - SQLite
+      - XML / JSON Manipulation
+      - C# / .NET (AutoCAD API)
+      - AutoHotkey (AHK)
+      - Regex
+  - name: Database & Web Technologies
+    details: |
+      - SQL Server (Admin, Schema Design, Queries, Triggers)
+      - MongoDB (Atlas, Compass)
+      - SQLite
+      - Web Frameworks (React, Next.js, ASP.NET Core)
+      - JavaScript / Three.js
+      - HTML / CSS
+      - REST APIs
+      - Git / GitLab
+      - Docker
+      - IIS
+  - name: AI & Machine Learning (Applied)
+    details: |
+      - LLM Prompt Engineering
+      - RAG Systems
+      - AI Code Generation/Interpretation
+      - OCR (pytesseract)
+      - Fuzzy String Matching
+  - name: Other Tools
+    details: |
+      - Microsoft Office Suite (Excel Automation)
+      - CRM Data Extraction (Zoho)
+      - PDF Data Extraction (tabula, pikepdf, PyPDF2, fitz)
+      - Network Analysis (Wireshark)
 
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+technical_capabilities: # Added new section
+  title: Technical Capabilities
+  intro: |
+    Leveraging automation and programming skills to interact with and manipulate engineering data formats for enhanced workflow efficiency.
+  items:
+    - title: CADWorx Plant Project File Authoring
+      details: |
+        - Programmatic creation, modification, and validation of CADWorx project definition files (.PRJ) and catalogs (.CAT).
+        - Developed automated systems (Python) to generate specifications directly from external data sources (e.g., XLSX).
+        - Expertise in manipulating PRJ structure (XML-based) for component data management, description formatting, and standards enforcement.
+        - Utilized Python libraries like `lxml` and `pandas` for parsing and generating PRJ content.
+    - title: Plant 3D Specification & Catalog Authoring
+      details: |
+        - Automated generation and management of Plant 3D specifications (.PSPX, .PSPC) and catalogs (.PCAT).
+        - Experience using SQL (TSQL) to directly interact with Plant 3D's underlying SQL Server/SQLite databases for spec/catalog manipulation.
+        - Developed Python scripts (`pyodbc`, `sqlalchemy`) for programmatic interaction with Plant 3D databases.
+        - Leveraged C#/.NET AutoCAD API for deeper integration and automation within the Plant 3D environment.
+        - Streamlined component creation, data consistency checks, and migration from other systems (e.g., CADWorx).
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
