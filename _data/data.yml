@@ -121,43 +121,42 @@ certifications:
 
 projects:
   title: Projects
-  intro: > # Using intro from original data.yml, adding note about detailed examples
-    You can list your side projects in this section. Detailed examples of client projects and internal development efforts involving automation, CAD customization, HDS implementation, and data management are available separately.
-  assignments: # Keeping structure, but removing placeholders as specific highlights are complex
-    # - title: Velocity
-    #   link: "#hook"
-    #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-oss:
-  title: OSS Contributions
-  intro: > # Keeping original intro
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions: # Keeping structure, removing placeholders
-    # - title: Tempo
-    #   link: "#"
-    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
-
-publications:
-  title: Publications
-  intro: | # Keeping original intro
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers: # Keeping structure, removing placeholders
-    # - title: The Art of Computer Programming
-    #   link: "#"
-    #   authors: Donald E. Knuth
-    #   conference: Addison-Wesley, 1968
+  intro: >
+    Highlights of key client projects and internal development efforts demonstrating expertise in automation, CAD customization, HDS implementation, and data management.
+  assignments:
+    - title: Automated Specification Generation System
+      link: "#"
+      tagline: "Designed and deployed a system to auto-generate validated CADWorx piping specs from XLSX data for Tier 1 EPCs."
+    - title: Specification Generation & Management Suite (Internal)
+      link: "#"
+      tagline: "Developed a comprehensive Python toolset for building, editing, and managing CADWorx & Plant 3D specs/catalogs."
+    - title: \"No-Touch\" Isometric Implementation
+      link: "#"
+      tagline: "Configured CADWorx isometric styles for >90% completion on initial generation, boosting efficiency."
+    - title: Tank Farm Production & Automation
+      link: "#"
+      tagline: "Led production integrating HDS scans, automating isometrics/title blocks, and resolving prior contractor issues."
+    - title: Socketworx Model Viewer Development
+      link: "#"
+      tagline: "Independently developed a 3D model viewer with measurement capabilities to replace inspection isometrics."
+    - title: AI-Enhanced Development & Analysis (Internal)
+      link: "#"
+      tagline: "Utilized AI (LLMs, RAG) for script generation, data analysis, documentation, and exploring advanced automation."
+    - title: CAD System Migration & Training (Plant 3D)
+      link: "#"
+      tagline: "Managed CADWorx to Plant 3D transition, including spec conversion and end-user training."
 
 recommendations:
   title: Recommendations
-  list: # Keeping structure, removing placeholders
-    # - person: Yareli Perez
-    #   email: perezyareli@example.com
-    #   phone: 012 345 6789
-    #   role: General Director at example.com
-    #   recommendation: |
-    #     Alan Doe is a super employee!
+  list:
+    - title: Debugging Dynamo
+      summary: Can wrestle legacy code into submission. It might cry a little, but it *will* submit.
+    - title: Automation Alchemist
+      summary: Turns tedious manual tasks into efficient automated workflows, possibly using caffeine and sheer willpower.
+    - title: Point Cloud Whisperer
+      summary: Makes sense of millions of laser points, occasionally asking them politely to line up.
+    - title: Specification Sorcerer
+      summary: Conjures fully compliant CAD specs from thin air (and maybe some spreadsheets).
 
 skills:
   title: Skills & Proficiency
