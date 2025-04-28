@@ -56,8 +56,9 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Driven Project Engineer and Consultant specializing in optimizing complex engineering workflows through expert application of CAD (AutoCAD Plant 3D, CADWorx Suite) and HDS/Laser Scanning technologies (Leica Cyclone Suite). Proven ability to design, develop, and deploy sophisticated automation solutions using Python, SQL, C#/.NET, and various APIs, significantly enhancing efficiency in areas like specification generation, isometric production, and data validation.
-    Passionate about bridging the physical and digital worlds, integrating scan data for precise as-built modeling, clash detection, and advanced analysis (AFT Suite, volume/decay calculations). Experienced in managing the full project lifecycle, from initial consultation and environment setup to technical leadership, production support, and client training. Adept at identifying process bottlenecks and architecting innovative solutions that deliver tangible business value. Continuously exploring emerging technologies like AI/LLMs and web visualization to further streamline engineering processes. PE licensed (Mechanical).
+    Tackling gnarly engineering puzzles? Bring it! I excel at optimizing workflows using CAD (Plant 3D, CADWorx) and HDS (Leica Cyclone), building potent automation (Python, SQL, .NET) that smashes bottlenecks in specs, isometrics, and data validation.
+
+    Energized by merging physical scans with digital designs for precise modeling and analysis. From strategic planning to hands-on coding and technical leadership, I drive projects end-to-end. Always exploring cutting-edge tech (AI, web viz) to revolutionize engineering processes. Ready for the next big challenge!
 
 education:
   title: Education
@@ -122,7 +123,7 @@ certifications:
 projects:
   title: Projects
   intro: >
-    Highlights of key client projects and internal development efforts demonstrating expertise in automation, CAD customization, HDS implementation, and data management.
+    Various projects I've worked on, extra efforts demonstrating expertise in automation, CAD customization, HDS implementation, and data management.
   assignments:
     - title: Automated Specification Generation System
       link: "#"
