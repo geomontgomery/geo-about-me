@@ -4,7 +4,7 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # Set to False to put Education in main section
 
   # Profile information
@@ -244,4 +244,3 @@ technical_capabilities: # Added new section
         - Streamlined component creation, data consistency checks, and migration from other systems (e.g., CADWorx).
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
