@@ -48,8 +48,6 @@ sidebar:
       link:
     - item: Running
       link:
-    - item: PC Gaming
-      link:
     - item: Technology Exploration (AI/LLMs, Automation) # Added based on resume content
       link:
 
@@ -125,6 +123,9 @@ projects:
   intro: >
     Various projects I've worked on, extra efforts demonstrating expertise in automation, CAD customization, HDS implementation, and data management.
   assignments:
+    - title: Web Att Updater
+      link: "https://www.webattupdater.xyz"
+      tagline: "Proof-of-concept site to upload DWG files, edit attributes, and download the dwg content. AWS Lambda serverless dwg modification."
     - title: Automated Specification Generation System
       link: "#"
       tagline: "Designed and deployed a system to auto-generate validated CADWorx piping specs from XLSX data for Tier 1 EPCs."
